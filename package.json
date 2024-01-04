@@ -1,6 +1,6 @@
 {
   "name": "@nmxjs/types",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,6 +25,9 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@nmxjs/validation": "^1.0.4"
+    "@nmxjs/validation": "^1.0.5"
+  },
+  "peerDependencies": {
+    "@nmxjs/validation": "^1.0.5"
   }
 }
