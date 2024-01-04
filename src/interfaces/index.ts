@@ -8,3 +8,4 @@ export * from './ICallback';
 export * from './IBootModeParam';
 export * from './FilterOperatorEnum';
 export * from './SortOrderByEnum';
+export * from './ProxyTypeEnum';

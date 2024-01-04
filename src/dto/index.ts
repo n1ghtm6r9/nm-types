@@ -1,3 +1,4 @@
+export * from './ProxyDto';
 export * from './EntityDto';
 export * from './UpdateRequestDto';
 export * from './ListRequestDto';
