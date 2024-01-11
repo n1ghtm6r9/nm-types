@@ -6,4 +6,5 @@ export interface IBootModeParam {
   min?: number;
   max?: number;
   allow?: string[];
+  array?: boolean;
 }
