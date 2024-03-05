@@ -20,6 +20,7 @@ export abstract class ListRequestDto {
 
   @Field({
     type: ListRequestPaginationDto,
+    nullable: true,
   })
-  pagination: ListRequestPaginationDto;
+  pagination?: ListRequestPaginationDto;
 }
