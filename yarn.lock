@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@nmxjs/constants@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@nmxjs/constants/-/constants-1.0.4.tgz#48b196fa96d43c6f064509b305ab637006730710"
+  integrity sha512-1pQlvx9D0ZXb1Zx1kOBw3BR/p4abOlcb4kLyXuXve8haXzf50nWd0rUSFlOEZhOLGzkk+KTw/9QSufi8Zm60Eg==
+
 typescript@^5.1.6:
   version "5.3.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"

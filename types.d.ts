@@ -4,6 +4,7 @@ declare module '@nmxjs/validation' {
     enum?: boolean;
     array?: boolean;
     nullable?: boolean;
+    default?: any;
   }
   const Field: (options: IFieldOptions) => PropertyDecorator;
 }
