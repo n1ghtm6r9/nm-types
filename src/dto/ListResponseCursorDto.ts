@@ -13,6 +13,7 @@ export abstract class ListResponseCursorDto {
 
   @Field({
     type: Number,
+    nullable: true,
   })
   nextPage?: number;
 }
