@@ -8,7 +8,7 @@ export abstract class ListRequestFilterDto {
   field: string;
 
   @Field({
-    type: String,
+    type: JSON,
     array: true,
   })
   values: string[];

@@ -1,6 +1,6 @@
 {
   "name": "@nmxjs/types",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,6 +28,6 @@
     "@nmxjs/constants": "^1.0.4"
   },
   "peerDependencies": {
-    "@nmxjs/validation": "^1.0.25"
+    "@nmxjs/validation": "^1.0.27"
   }
 }
