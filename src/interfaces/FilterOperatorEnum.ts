@@ -1,7 +1,7 @@
 export enum FilterOperatorEnum {
   EQ = 'EQ',
   IN = 'IN',
-  LIKE = 'LIKE',
+  SEARCH = 'SEARCH',
   LESS = 'LESS',
   LESS_OR_EQ = 'LESS_OR_EQ',
   MORE = 'MORE',
