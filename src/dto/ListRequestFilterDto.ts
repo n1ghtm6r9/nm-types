@@ -8,10 +8,9 @@ export abstract class ListRequestFilterDto {
   field: string;
 
   @Field({
-    type: JSON,
-    array: true,
+    type: String,
   })
-  values: string[];
+  value: string;
 
   @Field({
     type: { FilterOperatorEnum },
