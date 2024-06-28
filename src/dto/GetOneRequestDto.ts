@@ -13,4 +13,9 @@ export abstract class GetOneRequestDto<T extends object = object> {
     withoutGraphQl: true,
   })
   select?: Array<keyof T>;
+
+  @Field({
+    type: Boolean,
+  })
+  reject?: boolean;
 }
