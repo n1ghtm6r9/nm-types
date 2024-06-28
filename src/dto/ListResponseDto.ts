@@ -1,7 +1,7 @@
 import { Field } from '@nmxjs/validation';
 import { ListResponseCursorDto } from './ListResponseCursorDto';
 
-export abstract class ListResponseDto<T = object> {
+export abstract class ListResponseDto<T extends object = object> {
   abstract items: T[];
 
   @Field({

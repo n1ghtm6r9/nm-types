@@ -5,6 +5,7 @@ declare module '@nmxjs/validation' {
     array?: boolean;
     nullable?: boolean;
     default?: any;
+    withoutGraphQl?: boolean;
   }
   const Field: (options: IFieldOptions) => PropertyDecorator;
 }

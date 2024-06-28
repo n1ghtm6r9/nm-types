@@ -3,7 +3,7 @@ import { ListRequestPaginationDto } from './ListRequestPaginationDto';
 import { ListRequestFilterDto } from './ListRequestFilterDto';
 import { ListRequestSortDto } from './ListRequestSortDto';
 
-export abstract class ListRequestDto {
+export abstract class ListRequestDto<T extends object = object> {
   @Field({
     type: ListRequestFilterDto,
     array: true,
@@ -23,4 +23,12 @@ export abstract class ListRequestDto {
     nullable: true,
   })
   pagination?: ListRequestPaginationDto;
+
+  @Field({
+    type: String,
+    array: true,
+    nullable: true,
+    withoutGraphQl: true,
+  })
+  select?: Array<keyof T>;
 }

@@ -7,3 +7,5 @@ export * from './ListResponseCursorDto';
 export * from './ListResponseDto';
 export * from './ProxyDto';
 export * from './UpdateRequestDto';
+export * from './GetOneRequestDto';
+export * from './GetOneResponseDto';
