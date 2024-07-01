@@ -16,6 +16,8 @@ export abstract class GetOneRequestDto<T extends object = object> {
 
   @Field({
     type: Boolean,
+    nullable: true,
+    withoutGraphQl: true,
   })
   reject?: boolean;
 }
